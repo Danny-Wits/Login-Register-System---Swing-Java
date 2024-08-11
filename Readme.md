@@ -13,3 +13,17 @@ This project is a simple Java-based login system with a graphical user interface
 ### Important :
 
 - Create a file named userData.txt in the same directory to store user data.
+
+## Screenshots
+
+### Login Page
+
+![Login Page](/Images/Login.png)
+
+### Registration Page
+
+![Registration Page](/Images/Register.png)
+
+### Welcome Page
+
+![Welcome Page](/Images/Welcome.png)
