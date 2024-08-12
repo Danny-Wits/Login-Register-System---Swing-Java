@@ -13,21 +13,26 @@ This project implements a simple login and registration system using Java Swing 
 
 ## Screenshots
 
-### Login Page
-
-<img src="Images/Login.png" width="310" height="300" />
-
-### Registration Page
-
-<img src="Images/Register.png" width="310" height="300" />
-
-### Welcome Page for New User
-
-<img src="Images/WelcomeNewUser.png" width="310" height="300" />
-
-### Welcome Page for Existing User
-
-<img src="Images/WelcomeUser.png" width="310" height="300" />
+<table>
+  <tr>
+    <td><strong>Login Page</strong></td>
+    <td><strong>Registration Page</strong></td>
+  </tr>
+  <tr>
+    <td><img src="Images/Login.png" width="500" height="500"/></td>
+    <td><img src="Images/Register.png" width="500"height="500"/></td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><strong>Welcome Page for New User</strong></td>
+    <td><strong>For Existing User</strong></td>
+  </tr>
+  <tr>
+    <td><img src="Images/WelcomeNewUser.png" width="500"/></td>
+    <td><img src="Images/WelcomeUser.png" width="500"/></td>
+  </tr>
+</table>
 
 ## Dependencies
 
