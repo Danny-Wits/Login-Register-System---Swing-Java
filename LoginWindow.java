@@ -137,7 +137,7 @@ public class LoginWindow extends JFrame implements ActionListener {
             String PasswordHash = UserAuthentication.hashPassword(new String(Password));
             if (!Name.trim().isEmpty() && Password.trim().length() > 0) {
 
-                User newUser = new User(Name, PasswordHash); // creates user object with given credentials
+                new User(Name, PasswordHash); // creates user object with given credentials
 
                 // Storing user data in an arraylist then authenticating whether user exists/not
                 try {
