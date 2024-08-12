@@ -112,10 +112,11 @@ public class RegisterWindow extends JFrame implements ActionListener {
 
    // Handle Button Clicks
    public void actionPerformed(ActionEvent e) {
-      // Handles the Login Process
+      // Handles the Registration Process
       if (e.getSource() == this.CreateAccButton) {
          String Name = this.nameField.getText();
          String Password = new String(this.passwordField.getPassword());
+         // writing data to the file
          try {
             FileWriter myWriter = new FileWriter("userData.txt", true);
             myWriter.write(Name + "&" + UserAuthentication.hashPassword(Password) + "\n");
