@@ -13,8 +13,6 @@ This project implements a simple login and registration system using Java Swing 
 
 ## Screenshots
 
-### Login Page
-
 <table>
   <tr>
     <td><strong>Login Page</strong></td>
