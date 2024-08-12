@@ -1,29 +1,43 @@
-# Java Login System
+## Java Swing Login/Register System
 
-This project is a simple Java-based login system with a graphical user interface using Swing. It includes features for user authentication, registration, and a welcome page.
+This project implements a simple login and registration system using Java Swing and also implements Serialization. It provides a graphical user interface for users to create new accounts, log in to existing accounts, and view a welcome page upon successful authentication.
 
 ### Features
 
-- User login with authentication
-- User registration
-- Password hashing for security
-- Simple file-based user data storage
-- Graphical user interface using Java Swing
-
-### Important :
-
-- Create a file named userData.txt in the same directory to store user data.
+- User Registration: Allow new users to create accounts
+- User Login: Authenticate existing users
+- Welcome Page: Display a personalized welcome message after successful login or registration
+- Data Persistence: Save user data using Java serialization
+- Password Hashing: Securely store passwords using SHA-256 hashing
+- Error Handling: Provide user-friendly error messages for invalid inputs or failed authentication
 
 ## Screenshots
 
 ### Login Page
 
-![Login Page](/Images/Login.png)
+<img src="Images/Login.png" width="310" height="300" />
 
 ### Registration Page
 
-![Registration Page](/Images/Register.png)
+<img src="Images/Register.png" width="310" height="300" />
 
-### Welcome Page
+### Welcome Page for New User
 
-![Welcome Page](/Images/Welcome.png)
+<img src="Images/WelcomeNewUser.png" width="310" height="300" />
+
+### Welcome Page for Existing User
+
+<img src="Images/WelcomeUser.png" width="310" height="300" />
+
+## Dependencies
+
+This project uses standard Java libraries and Swing for the GUI. No additional dependencies are required.
+
+## Security Considerations
+
+- Passwords are hashed using SHA-256 before storage.
+- User data is serialized and stored locally. For a production environment, consider using a more secure database solution.
+
+## Contributing
+
+Contributions to improve the system are welcome. Please fork the repository and submit a pull request with your changes.
