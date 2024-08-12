@@ -13,14 +13,16 @@ This project implements a simple login and registration system using Java Swing 
 
 ## Screenshots
 
+### Login Page
+
 <table>
   <tr>
     <td><strong>Login Page</strong></td>
     <td><strong>Registration Page</strong></td>
   </tr>
   <tr>
-    <td><img src="Images/Login.png" width="500" height="500"/></td>
-    <td><img src="Images/Register.png" width="500"height="500"/></td>
+    <td><img src="Images/Login.png" width="400"/></td>
+    <td><img src="Images/Register.png" width="400"/></td>
   </tr>
 </table>
 <table>
@@ -29,8 +31,8 @@ This project implements a simple login and registration system using Java Swing 
     <td><strong>For Existing User</strong></td>
   </tr>
   <tr>
-    <td><img src="Images/WelcomeNewUser.png" width="500"/></td>
-    <td><img src="Images/WelcomeUser.png" width="500"/></td>
+    <td><img src="Images/WelcomeNewUser.png" width="400"/></td>
+    <td><img src="Images/WelcomeUser.png" width="400"/></td>
   </tr>
 </table>
 
