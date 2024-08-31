@@ -1,4 +1,4 @@
-## Java Swing Login/Register System
+## Java Swing Login/Register System (forked)
 
 This project implements a simple login and registration system using Java Swing and also implements Serialization. It provides a graphical user interface for users to create new accounts, log in to existing accounts, and view a welcome page upon successful authentication.
 
